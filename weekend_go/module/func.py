@@ -18,11 +18,11 @@ def songshan(event):
     url = "https://www.songshanculturalpark.org/exhibition"
     res = requests.get(url)
     soup = BeautifulSoup(res.text, 'html.parser')
-    titles = soup.select('.rows')
+    rows = soup.select('.rows')
 
     activity_info = []
     activity_info.append("🎉松山文創園區🎉")
-    for each_title in titles[:10]:
+    for row in rows:
         date = row.select_one('.date').text.strip()
         title = row.select_one('.lv_h2').text.strip()
         link = row.select_one('.btn')['href']
