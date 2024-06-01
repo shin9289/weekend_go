@@ -38,5 +38,9 @@ def handle_text_message(event):
     # 測試
     if received_text=="測試":
        func.sendText(event)  # 呼叫func.py中的函式
+    if received_text=="華山1914文創產業園區展覽資訊":
+       func.huashan(event) 
     if received_text=="松山文創園區展覽資訊":
        func.songshan(event) 
+    if received_text=="世貿／南港展覽館展覽資訊":
+       func.twtc(event) 
