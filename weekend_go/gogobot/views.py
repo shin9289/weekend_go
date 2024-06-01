@@ -45,6 +45,6 @@ def handle_text_message(event):
       func.songshan(event) 
    if received_text=="世貿／南港展覽館展覽資訊":
       func.twtc(event)
-   if received_text=="市集月份":
+   if received_text=="市集":
       func.market_month(event)
  
