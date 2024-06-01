@@ -3,7 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 
 from linebot import LineBotApi
-from linebot.models import TextSendMessage
+from linebot.models import TextSendMessage, TemplateSendMessage, ButtonsTemplate, MessageTemplateAction
 
 line_bot_api = LineBotApi(settings.LINE_CHANNEL_ACCESS_TOKEN)
 
@@ -87,4 +87,27 @@ def twtc(event):
     except:
         line_bot_api.reply_message(event.reply_token,TextSendMessage(text="⚠️emm...系統出了點小問題，請至台北世貿中心官網自行查詢：https://www.twtc.com.tw/exhibition.aspx?p=home"))
 
-
+#市集月份
+def market_month(event):
+    template_message = TemplateSendMessage(
+        alt_text='市集月份',
+        template=ButtonsTemplate(
+            title='請選擇月份',
+            text='',
+            actions=[
+                MessageTemplateAction(
+                    label='六月June',
+                    text='六月市集資訊',
+                ),
+                MessageTemplateAction(
+                    label='七月July',
+                    text='七月市集資訊'
+                ),
+                MessageTemplateAction(
+                    label='八月August',
+                    text='八月市集資訊'
+                )
+            ]
+        )
+    )
+    line_bot_api.reply_message(event.reply_token, template_message)

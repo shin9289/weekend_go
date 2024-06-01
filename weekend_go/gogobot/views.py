@@ -5,7 +5,7 @@ from django.views.decorators.csrf import csrf_exempt
 
 from linebot import LineBotApi, WebhookParser
 from linebot.exceptions import InvalidSignatureError, LineBotApiError
-from linebot.models import MessageEvent, TextMessage, TextSendMessage
+from linebot.models import MessageEvent, TextMessage, TemplateSendMessage
 from module import func
 
 line_bot_api = LineBotApi(settings.LINE_CHANNEL_ACCESS_TOKEN)
@@ -32,15 +32,19 @@ def callback(request):
          return HttpResponseBadRequest ()
 
 def handle_text_message(event):
-    #user_id = event.source.user_id
-    received_text = event.message.text
+   #user_id = event.source.user_id
+   received_text = event.message.text
 
-    # 測試
-    if received_text=="測試":
-       func.sendText(event)  # 呼叫func.py中的函式
-    if received_text=="華山1914文創產業園區展覽資訊":
-       func.huashan(event) 
-    if received_text=="松山文創園區展覽資訊":
-       func.songshan(event) 
-    if received_text=="世貿／南港展覽館展覽資訊":
-       func.twtc(event) 
+   # 測試
+   if received_text=="測試":
+      func.sendText(event)
+   #展覽
+   if received_text=="華山1914文創產業園區展覽資訊":
+      func.huashan(event) 
+   if received_text=="松山文創園區展覽資訊":
+      func.songshan(event) 
+   if received_text=="世貿／南港展覽館展覽資訊":
+      func.twtc(event)
+   if received_text=="市集月份":
+      func.market_month(event)
+ 
