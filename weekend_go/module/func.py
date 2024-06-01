@@ -87,27 +87,15 @@ def twtc(event):
     except:
         line_bot_api.reply_message(event.reply_token,TextSendMessage(text="⚠️emm...系統出了點小問題，請至台北世貿中心官網自行查詢：https://www.twtc.com.tw/exhibition.aspx?p=home"))
 
-#市集月份
-def market_month(event):
+#按鈕樣板
+def send_template_message(event, title, text, actions):
+    buttons_template = ButtonsTemplate(
+        title=title,
+        text=text,
+        actions=actions
+    )
     template_message = TemplateSendMessage(
-        alt_text='市集月份',
-        template=ButtonsTemplate(
-            title='請選擇月份',
-            text='',
-            actions=[
-                MessageTemplateAction(
-                    label='六月June',
-                    text='六月市集資訊',
-                ),
-                MessageTemplateAction(
-                    label='七月July',
-                    text='七月市集資訊'
-                ),
-                MessageTemplateAction(
-                    label='八月August',
-                    text='八月市集資訊'
-                )
-            ]
-        )
+        alt_text=title,
+        template=buttons_template
     )
     line_bot_api.reply_message(event.reply_token, template_message)

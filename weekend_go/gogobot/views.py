@@ -5,7 +5,7 @@ from django.views.decorators.csrf import csrf_exempt
 
 from linebot import LineBotApi, WebhookParser
 from linebot.exceptions import InvalidSignatureError, LineBotApiError
-from linebot.models import MessageEvent, TextMessage, TemplateSendMessage
+from linebot.models import MessageEvent, TextMessage, MessageTemplateAction
 from module import func
 
 line_bot_api = LineBotApi(settings.LINE_CHANNEL_ACCESS_TOKEN)
@@ -46,5 +46,23 @@ def handle_text_message(event):
    if received_text=="世貿／南港展覽館展覽資訊":
       func.twtc(event)
    if received_text=="市集":
-      func.market_month(event)
- 
+      actions = [
+            MessageTemplateAction(
+                label="六月June",
+                text="六月市集資訊"
+            ),
+            MessageTemplateAction(
+                label="七月July",
+                text="七月市集資訊"
+            ),
+            MessageTemplateAction(
+                label="八月August",
+                text="八月市集資訊"
+            )
+        ]
+      func.send_template_message(
+         event=event,
+         title="請選擇月份",
+         text="我們將會整理該月是集資訊給您呦～",
+         actions=actions
+      )
