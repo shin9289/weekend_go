@@ -109,7 +109,7 @@ def taipei_secret_place(event):
   "type": "carousel",
   "contents": 
   [
-    #陽明湧泉與水道系統
+    
     {
       "type": "bubble",
       "size": "mega",
@@ -213,7 +213,7 @@ def taipei_secret_place(event):
         ]
       }
     },
-    #小隱潭瀑布
+    
     {
       "type": "bubble",
       "size": "mega",
@@ -317,7 +317,7 @@ def taipei_secret_place(event):
         ]
       }
     },
-    #草山玉溪石雕博物館
+    
     {
       "type": "bubble",
       "size": "mega",
@@ -327,7 +327,7 @@ def taipei_secret_place(event):
         "contents": [
           {
             "type": "image",
-            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcNC3M57bi9Z3Dfd5JeEzsFY8GyU7QwMB1gQ&s",
+            "url": "https://camilleblog.com/wp-content/uploads/2021/09/%E9%99%BD%E6%98%8E%E5%B1%B1%E6%99%AF%E9%BB%9E-%E8%8D%89%E5%B1%B1%E7%8E%89%E6%BA%AA-by-camilleblog.com-2021090413.jpg",
             "size": "full",
             "gravity": "top",
             "aspectRatio": "3:4",
@@ -406,7 +406,7 @@ def taipei_secret_place(event):
                         "action": {
                           "type": "uri",
                           "label": "怎麼去？",
-                          "uri": "https://www.google.com/maps/place/Garden91%E8%8D%89%E5%B1%B1%E7%8E%89%E6%BA%AA+(%E9%9C%80%E9%A0%90%E7%B4%84)/@25.107354,121.545329,15z/data=!4m5!3m4!1s0x0:0x336f56b10ffba362!8m2!3d25.107354!4d121.545329?sa=X&ved=2ahUKEwi3pbOP7-b7AhWvGaYKHQhoAg8Q_BJ6BAh6EAgB3%E7%80%91%E5%B8%83%EF%BD%9C%E9%8A%80%E6%B2%B3%E6%B4%9E/@24.9584884,121.5834063,15z/data%3D!4m2!3m1!1s0x0:0xd5265b4d2872f3ee?sa%3DX&ved=2ahUKEwiN2o237eb7AhUtE6YKHQKBBwEQ_BJ6BAhuEAg9%EF%BF%BD%EF%BF%BD%E9%A7%9D%E5%B3%B0/@25.2029854,121.69453,15z/data%3D!4m2!3m1!1s0x0:0xaa86df60b19fb4b?sa%3DX&ved=2ahUKEwiP0K_gveb7AhUFr1YBHTfMAAcQ_BJ6BAhwEAg9A%EF%BF%BD%E6%BD%AD%E7%80%91%E5%B8%83/@25.1566331,121.540597,15z/data%3D!4m5!3m4!1s0x0:0x1d9e751f23ade22e!8m2!3d25.1566331!4d121.5405970%E6%99%AF%E5%B9%B3%E5%8F%B0/@24.9403904,121.6317818,15z/data%3D!4m2!3m1!1s0x0:0x8cd38a6367d9ff9?sa%3DX&ved=2ahUKEwiTs-GH5dL7AhX_QPUHHVs7DdEQ_BJ6BQiCARAIE6%EF%BF%BD%EF%BF%BD%E5%85%89%E7%94%9F%E6%B4%BB%E5%9C%92%E5%8D%80/@25.0304218,121.5259963,15z/data%3D!4m5!3m4!1s0x0:0xf2c6ce7963e83e59!8mE7%EF%BF%BD%EF%BF%BD%E5%9C%92/@24.9985635,121.5809857,15z/data%3D!4m2!3m1!1s0x0:0xaafe06fd09b4d766?sa%3DX&ved=2ahUKEwjsg8jwmdD7AhUUM94KHYEwAkIQ_BJ6BQiOARAIAB%EF%BF%BD%E5%8B%95%E7%89%A9%E5%9C%92/@24.9985635,121.5809857,15z/data%3D!4m2!3m1!1s0x0:0xaafe06fd09b4d766?sa%3DX&ved=2ahUKEwimw-GL8cj7AhXQMd4KHUXVD-sQ_BJ6BQiZARAIE5%EF%BF%BD%EF%BF%BD%E7%B8%BD%E7%9D%A3%E6%BA%AB%E6%B3%89/@25.2221157,121.6459792,15z/data%3D!4m2!3m1!1s0x0:0xf7578af19df2fdf1?sa%3DX&ved=2ahUKEwjWvdiL4cP7AhWMFogKHQ3OA2IQ_BJ6BAh7EAgBE%EF%BF%BD%E6%97%85%E6%99%A8%E6%BA%AB%E6%B3%89%E6%B0%91%E5%AE%BF/@24.8655855,121.54752,15z/data%3D!4m2!3m1!1s0x0:0x2300d487cb11cb43?sa%3DX&ved=2ahUKEwi4oNDNqsH7AhWFB94KHUGXCFsQ_BJ6BAhoEAc%E6%98%A5%E5%A4%A9%E9%85%92%E5%BA%97/@25.137598,121.513561,15z/data%3D!4m8!3m7!1s0x0:0x12d9124e8cdfc5e6!5m2!4m1!1i2!8m2!3d25.137598!4d121.513561%E6%98%8E%E5%B1%B1%E5%A4%A9%E7%B1%9F%E6%B8%A1%E5%81%87%E9%85%92%E5%BA%97/@25.2019363,121.5954122,15z/data%3D!4m8!3m7!1s0x0:0x7c7fb525471a2ad7!5m2!4m1!1i2!8m2!3d25.2019363!4d121.5954122&coh=164777&entry=tt&shorturl=1"
+                          "uri": "https://maps.app.goo.gl/avv95r9QnCjBbMx46"
                         },
                         "style": "primary",
                         "color": "#b78b68"
@@ -421,7 +421,7 @@ def taipei_secret_place(event):
         ]
       }
     },
-    #馬槽花藝村
+    
     {
       "type": "bubble",
       "size": "mega",
@@ -525,7 +525,7 @@ def taipei_secret_place(event):
         ]
       }
     },
-    #本山礦場
+    
     {
       "type": "bubble",
       "size": "mega",
@@ -629,7 +629,7 @@ def taipei_secret_place(event):
         ]
       }
     },
-    #觀音山蓄水池
+    
     {
       "type": "bubble",
       "size": "mega",
