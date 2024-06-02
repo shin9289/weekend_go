@@ -738,6 +738,1024 @@ def taipei_secret_place(event):
     )
     line_bot_api.reply_message(event.reply_token, flex_message)
 
+#低難度健行步道
+def easy_trail(event):
+    flex_message = FlexSendMessage(
+            alt_text='低難度健行步道',
+            contents={
+                {
+  "type": "bubble",
+  "header": {
+    "type": "box",
+    "layout": "horizontal",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "低難度健行步道",
+            "size": "xl",
+            "weight": "bold"
+          }
+        ],
+        "flex": 3
+      },
+      {
+        "type": "box",
+        "layout": "baseline",
+        "contents": [
+          {
+            "type": "text",
+            "text": "難度",
+            "align": "center",
+            "weight": "bold",
+            "color": "#905c44",
+            "offsetBottom": "xs"
+          },
+          {
+            "type": "icon",
+            "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png",
+            "size": "xl"
+          }
+        ],
+        "flex": 2
+      }
+    ],
+    "paddingBottom": "xs"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "劍潭山親山步道",
+            "size": "lg",
+            "weight": "bold",
+            "color": "#5f473a"
+          }
+        ],
+        "paddingAll": "lg",
+        "backgroundColor": "#f4e8d5"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "步道介紹",
+                  "uri": "https://hiking.biji.co/index.php?q=trail&act=detail&id=34"
+                },
+                "style": "primary",
+                "height": "sm",
+                "color": "#5f473a"
+              }
+            ],
+            "margin": "md"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "Google Map",
+                  "uri": "https://maps.app.goo.gl/p2ip8a4h5CDRHAgXA"
+                },
+                "style": "primary",
+                "height": "sm",
+                "color": "#5f473a"
+              }
+            ],
+            "margin": "md"
+          }
+        ],
+        "backgroundColor": "#f4e8d5",
+        "paddingBottom": "md",
+        "paddingEnd": "md"
+      },
+      {
+        "type": "separator",
+        "margin": "md"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "新山夢湖登山步道",
+            "size": "lg",
+            "weight": "bold",
+            "color": "#5f473a"
+          }
+        ],
+        "paddingAll": "lg",
+        "backgroundColor": "#f4e8d5"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "步道介紹",
+                  "uri": "https://hiking.biji.co/index.php?q=trail&act=detail&id=55"
+                },
+                "style": "primary",
+                "height": "sm",
+                "color": "#5f473a"
+              }
+            ],
+            "margin": "md"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "Google Map",
+                  "uri": "https://maps.app.goo.gl/2XYU2Rr1eww4Hotb7"
+                },
+                "style": "primary",
+                "height": "sm",
+                "color": "#5f473a"
+              }
+            ],
+            "margin": "md"
+          }
+        ],
+        "backgroundColor": "#f4e8d5",
+        "paddingBottom": "md",
+        "paddingEnd": "md"
+      },
+      {
+        "type": "separator",
+        "margin": "md"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "頂山—石梯嶺步道",
+            "size": "lg",
+            "weight": "bold",
+            "color": "#5f473a"
+          }
+        ],
+        "paddingAll": "lg",
+        "backgroundColor": "#f4e8d5"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "步道介紹",
+                  "uri": "https://hiking.biji.co/index.php?q=trail&act=detail&id=10"
+                },
+                "style": "primary",
+                "height": "sm",
+                "color": "#5f473a"
+              }
+            ],
+            "margin": "md"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "Google Map",
+                  "uri": "https://maps.app.goo.gl/awBH64i5StmBqjp4A"
+                },
+                "style": "primary",
+                "height": "sm",
+                "color": "#5f473a"
+              }
+            ],
+            "margin": "md"
+          }
+        ],
+        "backgroundColor": "#f4e8d5",
+        "paddingBottom": "md",
+        "paddingEnd": "md"
+      },
+      {
+        "type": "separator",
+        "margin": "md"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "明舉山步道",
+            "size": "lg",
+            "weight": "bold",
+            "color": "#5f473a"
+          }
+        ],
+        "paddingAll": "lg",
+        "backgroundColor": "#f4e8d5"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "步道介紹",
+                  "uri": "https://hiking.biji.co/index.php?q=trail&act=detail&id=45"
+                },
+                "style": "primary",
+                "height": "sm",
+                "color": "#5f473a"
+              }
+            ],
+            "margin": "md"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "Google Map",
+                  "uri": "https://maps.app.goo.gl/sbFcv43aitGhYpuU8"
+                },
+                "style": "primary",
+                "height": "sm",
+                "color": "#5f473a"
+              }
+            ],
+            "margin": "md"
+          }
+        ],
+        "backgroundColor": "#f4e8d5",
+        "paddingBottom": "md",
+        "paddingEnd": "md"
+      },
+      {
+        "type": "separator",
+        "margin": "md"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "樹梅古道",
+            "size": "lg",
+            "weight": "bold",
+            "color": "#5f473a"
+          }
+        ],
+        "paddingAll": "lg",
+        "backgroundColor": "#f4e8d5"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "步道介紹",
+                  "uri": "https://hiking.biji.co/index.php?q=trail&act=detail&id=1427"
+                },
+                "style": "primary",
+                "height": "sm",
+                "color": "#5f473a"
+              }
+            ],
+            "margin": "md"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "Google Map",
+                  "uri": "https://maps.app.goo.gl/YDmmE6rPF6m6BFei9"
+                },
+                "style": "primary",
+                "height": "sm",
+                "color": "#5f473a"
+              }
+            ],
+            "margin": "md"
+          }
+        ],
+        "backgroundColor": "#f4e8d5",
+        "paddingBottom": "md",
+        "paddingEnd": "md"
+      }
+    ],
+    "paddingAll": "md"
+  }
+}
+            } 
+    )
+    line_bot_api.reply_message(event.reply_token, flex_message)
+
+#中難度健行步道
+def medium_trail(event):
+    flex_message = FlexSendMessage(
+            alt_text='中難度健行步道',
+            contents={
+                {
+  "type": "bubble",
+  "header": {
+    "type": "box",
+    "layout": "horizontal",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "中難度健行步道",
+            "size": "xl",
+            "weight": "bold"
+          }
+        ],
+        "flex": 3
+      },
+      {
+        "type": "box",
+        "layout": "baseline",
+        "contents": [
+          {
+            "type": "text",
+            "text": "難度",
+            "align": "center",
+            "weight": "bold",
+            "color": "#905c44",
+            "offsetBottom": "xs"
+          },
+          {
+            "type": "icon",
+            "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png",
+            "size": "xl"
+          },
+          {
+            "type": "icon",
+            "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png",
+            "size": "xl"
+          }
+        ],
+        "flex": 2
+      }
+    ],
+    "paddingBottom": "xs"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "陽明山東西大縱走",
+            "size": "lg",
+            "weight": "bold",
+            "color": "#5f473a"
+          }
+        ],
+        "paddingAll": "lg",
+        "backgroundColor": "#f4e8d5"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "步道介紹",
+                  "uri": "https://hiking.biji.co/index.php?q=trail&act=detail&id=428"
+                },
+                "style": "primary",
+                "height": "sm",
+                "color": "#5f473a"
+              }
+            ],
+            "margin": "md"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "登山口",
+                  "uri": "https://maps.app.goo.gl/V8natfQR1dkVHtaS9"
+                },
+                "style": "primary",
+                "height": "sm",
+                "color": "#5f473a"
+              }
+            ],
+            "margin": "md"
+          }
+        ],
+        "backgroundColor": "#f4e8d5",
+        "paddingBottom": "md",
+        "paddingEnd": "md"
+      },
+      {
+        "type": "separator",
+        "margin": "md"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "小觀音山群峰步道",
+            "size": "lg",
+            "weight": "bold",
+            "color": "#5f473a"
+          }
+        ],
+        "paddingAll": "lg",
+        "backgroundColor": "#f4e8d5"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "步道介紹",
+                  "uri": "https://hiking.biji.co/index.php?q=trail&act=detail&id=605"
+                },
+                "style": "primary",
+                "height": "sm",
+                "color": "#5f473a"
+              }
+            ],
+            "margin": "md"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "登山口",
+                  "uri": "https://maps.app.goo.gl/3Mc79ZWjmhA7BGE49"
+                },
+                "style": "primary",
+                "height": "sm",
+                "color": "#5f473a"
+              }
+            ],
+            "margin": "md"
+          }
+        ],
+        "backgroundColor": "#f4e8d5",
+        "paddingBottom": "md",
+        "paddingEnd": "md"
+      },
+      {
+        "type": "separator",
+        "margin": "md"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "環台北天際線第一段",
+            "size": "lg",
+            "weight": "bold",
+            "color": "#5f473a"
+          },
+          {
+            "type": "text",
+            "text": "石碇至新店",
+            "color": "#5f473a",
+            "weight": "bold",
+            "size": "md"
+          }
+        ],
+        "paddingAll": "lg",
+        "backgroundColor": "#f4e8d5"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "步道介紹",
+                  "uri": "https://hiking.biji.co/index.php?q=trail&act=detail&id=960"
+                },
+                "style": "primary",
+                "height": "sm",
+                "color": "#5f473a"
+              }
+            ],
+            "margin": "md"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "登山口",
+                  "uri": "https://maps.app.goo.gl/2CryGVbXjcJJELEi8"
+                },
+                "style": "primary",
+                "height": "sm",
+                "color": "#5f473a"
+              }
+            ],
+            "margin": "md"
+          }
+        ],
+        "backgroundColor": "#f4e8d5",
+        "paddingBottom": "md",
+        "paddingEnd": "md"
+      },
+      {
+        "type": "separator",
+        "margin": "md"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "大屯主峰步道",
+            "size": "lg",
+            "weight": "bold",
+            "color": "#5f473a"
+          }
+        ],
+        "paddingAll": "lg",
+        "backgroundColor": "#f4e8d5"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "步道介紹",
+                  "uri": "https://hiking.biji.co/index.php?q=trail&act=detail&id=69"
+                },
+                "style": "primary",
+                "height": "sm",
+                "color": "#5f473a"
+              }
+            ],
+            "margin": "md"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "登山口",
+                  "uri": "https://maps.app.goo.gl/doUZoJN11twzzHwL9"
+                },
+                "style": "primary",
+                "height": "sm",
+                "color": "#5f473a"
+              }
+            ],
+            "margin": "md"
+          }
+        ],
+        "backgroundColor": "#f4e8d5",
+        "paddingBottom": "md",
+        "paddingEnd": "md"
+      },
+      {
+        "type": "separator",
+        "margin": "md"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "猴山岳登山步道",
+            "size": "lg",
+            "weight": "bold",
+            "color": "#5f473a"
+          }
+        ],
+        "paddingAll": "lg",
+        "backgroundColor": "#f4e8d5"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "步道介紹",
+                  "uri": "https://hiking.biji.co/index.php?q=trail&act=detail&id=133"
+                },
+                "style": "primary",
+                "height": "sm",
+                "color": "#5f473a"
+              }
+            ],
+            "margin": "md"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "登山口",
+                  "uri": "https://maps.app.goo.gl/3L2QbDGQf7nPAL7y6"
+                },
+                "style": "primary",
+                "height": "sm",
+                "color": "#5f473a"
+              }
+            ],
+            "margin": "md"
+          }
+        ],
+        "backgroundColor": "#f4e8d5",
+        "paddingBottom": "md",
+        "paddingEnd": "md"
+      }
+    ],
+    "paddingAll": "md"
+  }
+}
+            } 
+    )
+    line_bot_api.reply_message(event.reply_token, flex_message)
+
+#高難度健行步道
+def hard_trail(event):
+    flex_message = FlexSendMessage(
+            alt_text='高難度健行步道',
+            contents={
+                {
+  "type": "bubble",
+  "header": {
+    "type": "box",
+    "layout": "horizontal",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "高難度健行步道",
+            "size": "xl",
+            "weight": "bold"
+          }
+        ],
+        "flex": 3
+      },
+      {
+        "type": "box",
+        "layout": "baseline",
+        "contents": [
+          {
+            "type": "text",
+            "text": "難度",
+            "align": "center",
+            "weight": "bold",
+            "color": "#905c44",
+            "offsetBottom": "xs"
+          },
+          {
+            "type": "icon",
+            "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png",
+            "size": "xl"
+          },
+          {
+            "type": "icon",
+            "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png",
+            "size": "xl"
+          },
+          {
+            "type": "icon",
+            "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png",
+            "size": "xl"
+          }
+        ],
+        "flex": 2
+      }
+    ],
+    "paddingBottom": "xs"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "筆架連峰",
+            "size": "lg",
+            "weight": "bold",
+            "color": "#5f473a"
+          }
+        ],
+        "paddingAll": "lg",
+        "backgroundColor": "#f4e8d5"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "步道介紹",
+                  "uri": "https://hiking.biji.co/index.php?q=trail&act=detail&id=51"
+                },
+                "style": "primary",
+                "height": "sm",
+                "color": "#5f473a"
+              }
+            ],
+            "margin": "md"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "登山口",
+                  "uri": "https://maps.app.goo.gl/tuoLHQpw2pvxdFrC8"
+                },
+                "style": "primary",
+                "height": "sm",
+                "color": "#5f473a"
+              }
+            ],
+            "margin": "md"
+          }
+        ],
+        "backgroundColor": "#f4e8d5",
+        "paddingBottom": "md",
+        "paddingEnd": "md"
+      },
+      {
+        "type": "separator",
+        "margin": "md"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "三峽五寮尖",
+            "size": "lg",
+            "weight": "bold",
+            "color": "#5f473a"
+          }
+        ],
+        "paddingAll": "lg",
+        "backgroundColor": "#f4e8d5"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "步道介紹",
+                  "uri": "https://hiking.biji.co/index.php?q=trail&act=detail&id=88"
+                },
+                "style": "primary",
+                "height": "sm",
+                "color": "#5f473a"
+              }
+            ],
+            "margin": "md"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "登山口",
+                  "uri": "https://maps.app.goo.gl/au8PXZT9FSUzeLfZ7"
+                },
+                "style": "primary",
+                "height": "sm",
+                "color": "#5f473a"
+              }
+            ],
+            "margin": "md"
+          }
+        ],
+        "backgroundColor": "#f4e8d5",
+        "paddingBottom": "md",
+        "paddingEnd": "md"
+      },
+      {
+        "type": "separator",
+        "margin": "md"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "基隆劍龍稜",
+            "size": "lg",
+            "weight": "bold",
+            "color": "#5f473a"
+          }
+        ],
+        "paddingAll": "lg",
+        "backgroundColor": "#f4e8d5"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "步道介紹",
+                  "uri": "https://hiking.biji.co/index.php?q=trail&act=detail&id=662"
+                },
+                "style": "primary",
+                "height": "sm",
+                "color": "#5f473a"
+              }
+            ],
+            "margin": "md"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "登山口",
+                  "uri": "https://maps.app.goo.gl/DKH69aCcK1cjCpB49"
+                },
+                "style": "primary",
+                "height": "sm",
+                "color": "#5f473a"
+              }
+            ],
+            "margin": "md"
+          }
+        ],
+        "backgroundColor": "#f4e8d5",
+        "paddingBottom": "md",
+        "paddingEnd": "md"
+      }
+    ],
+    "paddingAll": "md"
+  }
+}
+            } 
+    )
+    line_bot_api.reply_message(event.reply_token, flex_message)
 
 
 

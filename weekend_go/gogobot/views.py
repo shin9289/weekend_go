@@ -94,3 +94,9 @@ def handle_text_message(event):
             text="請選擇難度",
             actions=actions
         )
+    if received_text=="低難度健行步道":
+        func.easy_trail(event)
+    if received_text=="中難度健行步道":
+        func.medium_trail(event)
+    if received_text=="高難度健行步道":
+        func.hard_trail(event)
