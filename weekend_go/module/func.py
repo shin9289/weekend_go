@@ -198,7 +198,7 @@ def taipei_secret_place(event):
                         "action": {
                           "type": "uri",
                           "label": "怎麼去？",
-                          "uri": "https://www.google.com/maps/place/%E5%B0%8F%E9%9A%B1%E6%BD%AD%E7%80%91%E5%B8%83/@25.156683,121.5387329,16.47z/data=!4m6!3m5!1s0x3442adff1d510b01:0x1d9e751f23ade22e!8m2!3d25.1566331!4d121.540597!16s%2Fg%2F11c5zss_qk?authuser=0&entry=ttu"
+                          "uri": "https://maps.app.goo.gl/iDW4AC1g5J4ZGtYG7"
                         },
                         "style": "primary",
                         "color": "#b78b68"
@@ -302,7 +302,7 @@ def taipei_secret_place(event):
                         "action": {
                           "type": "uri",
                           "label": "怎麼去？",
-                          "uri": "https://www.google.com/maps/place/%E6%9C%AC%E5%B1%B1%E7%A4%A6%E5%A0%B4/@25.1018012,121.8562666,17z/data=!3m1!4b1!4m6!3m5!1s0x345d44dfa8b89181:0xb5cbc074abfe37bb!8m2!3d25.1017964!4d121.8588415!16s%2Fg%2F11cspthz85?authuser=0&entry=ttu"
+                          "uri": "https://maps.app.goo.gl/b9AvL5xpfQisRy6CA"
                         },
                         "style": "primary",
                         "color": "#b78b68"
@@ -510,7 +510,7 @@ def taipei_secret_place(event):
                         "action": {
                           "type": "uri",
                           "label": "怎麼去？",
-                          "uri": "https://www.google.com/maps/place/%E9%A6%AC%E6%A7%BD%E8%8A%B1%E8%97%9D%E6%9D%91(%E9%99%BD%E6%98%8E%E5%B1%B1%E6%BA%AB%E6%B3%89)/@25.1887408,121.5694004,15z/data=!4m2!3m1!1s0x0:0x505b1e4cf7148715?sa=X&ved=1t:2428&ictx=111"
+                          "uri": "https://maps.app.goo.gl/NufueX3HPV264r6Z9"
                         },
                         "style": "primary",
                         "color": "#b78b68"
@@ -614,7 +614,7 @@ def taipei_secret_place(event):
                         "action": {
                           "type": "uri",
                           "label": "怎麼去？",
-                          "uri": "https://www.google.com/maps/place/%E6%9C%AC%E5%B1%B1%E7%A4%A6%E5%A0%B4/@25.1018012,121.8562666,17z/data=!3m1!4b1!4m6!3m5!1s0x345d44dfa8b89181:0xb5cbc074abfe37bb!8m2!3d25.1017964!4d121.8588415!16s%2Fg%2F11cspthz85?authuser=0&entry=ttu"
+                          "uri": "https://maps.app.goo.gl/6HGwkdtmZutuuzkF9"
                         },
                         "style": "primary",
                         "color": "#b78b68"
