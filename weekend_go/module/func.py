@@ -743,7 +743,6 @@ def easy_trail(event):
     flex_message = FlexSendMessage(
             alt_text='低難度健行步道',
             contents={
-                {
   "type": "bubble",
   "header": {
     "type": "box",
@@ -1108,7 +1107,6 @@ def easy_trail(event):
     ],
     "paddingAll": "md"
   }
-}
             } 
     )
     line_bot_api.reply_message(event.reply_token, flex_message)
@@ -1118,7 +1116,6 @@ def medium_trail(event):
     flex_message = FlexSendMessage(
             alt_text='中難度健行步道',
             contents={
-                {
   "type": "bubble",
   "header": {
     "type": "box",
@@ -1495,7 +1492,6 @@ def medium_trail(event):
     ],
     "paddingAll": "md"
   }
-}
             } 
     )
     line_bot_api.reply_message(event.reply_token, flex_message)
@@ -1505,7 +1501,6 @@ def hard_trail(event):
     flex_message = FlexSendMessage(
             alt_text='高難度健行步道',
             contents={
-                {
   "type": "bubble",
   "header": {
     "type": "box",
@@ -1752,7 +1747,6 @@ def hard_trail(event):
     ],
     "paddingAll": "md"
   }
-}
             } 
     )
     line_bot_api.reply_message(event.reply_token, flex_message)
