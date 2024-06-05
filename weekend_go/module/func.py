@@ -1757,7 +1757,6 @@ def keelungbike(event):
   original_content_url='https://www.travel.taipei/content/images/2023/map/Keelung.jpg',
   preview_image_url='https://www.travel.taipei/content/images/2023/map/Keelung.jpg'
   )
-  text_message='從左岸的林安泰疏散門進入河濱自行車道，遊客可以看見記錄著基隆河緣起、整治故事的解說牌，讓民眾在運動休閒之餘，還能了解基隆河長長的歷史故事。\n\n大佳河濱公園是屬河床填土後的新生地，放眼望去盡是綠野草皮，靠西之地建設成都會型綠化公園，其中以中山橋到大直橋間段的親水公園最具特色，地標「希望之泉」的噴泉設計，高達25層樓高的扇形噴泉水幕，精采的水舞、夜晚亮麗的五彩霓虹燈光，整個河濱之地瞬間成為繽紛亮麗，背景在圓山飯店古典輝煌的紅色建築陪襯下，景致格外好看、令人難忘，可以說是市區閤家老少、戀愛男女朋友約會的最佳去處。\n\n遊客若是從右岸的美堤疏散門進入，也同樣可以看見堤防壁上用圖案細說基隆河的歷史故事，沿途騎乘至南湖河濱公園右岸「 內湖葫蘆洲吊橋橋墩 」及「 五分吊橋遺址 」感受基隆河發展之歷史見證，同樣精彩耀眼，夜遊基隆河，更可看到眩麗的摩天輪及內湖科技園區夜景。'
-  line_bot_api.reply_message(event.reply_token, [text_message, image_message])
+  line_bot_api.reply_message(event.reply_token, image_message)
 
 
