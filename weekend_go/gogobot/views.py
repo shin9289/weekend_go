@@ -100,3 +100,5 @@ def handle_text_message(event):
         func.medium_trail(event)
     if received_text=="高難度健行步道":
         func.hard_trail(event)
+    if received_text=="基隆河自行車道":
+        func.keelungbike(event)
