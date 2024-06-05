@@ -2967,7 +2967,7 @@ def bl(event):
     "contents": [
       {
         "type": "text",
-        "text": "文湖線咖啡廳",
+        "text": "板南線咖啡廳",
         "color": "#0070bd",
         "size": "xl",
         "weight": "bold"
