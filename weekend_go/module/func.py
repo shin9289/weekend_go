@@ -1751,11 +1751,317 @@ def hard_trail(event):
     )
     line_bot_api.reply_message(event.reply_token, flex_message)
 
-#基隆河自行車道
+#自行車道
+def bike(event):
+    flex_message = FlexSendMessage(
+            alt_text='自行車道',
+            contents={
+                {
+  "type": "carousel",
+  "contents": [
+    {
+      "type": "bubble",
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "image",
+            "url": "https://www.travel.taipei/content/images/2023/Keelung-map-title.png",
+            "gravity": "top"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "button",
+                    "action": {
+                      "type": "message",
+                      "label": "路線地圖",
+                      "text": "基隆河河濱自行車道"
+                    },
+                    "color": "#5f473a"
+                  }
+                ]
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "button",
+                    "action": {
+                      "type": "uri",
+                      "label": "介紹",
+                      "uri": "https://www.travel.taipei/zh-tw/must-visit/riverside-bikeway#keelung"
+                    },
+                    "color": "#5f473a"
+                  }
+                ]
+              }
+            ],
+            "backgroundColor": "#f4e8d5"
+          }
+        ],
+        "paddingAll": "none"
+      }
+    },
+    {
+      "type": "bubble",
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "image",
+            "url": "https://www.travel.taipei/content/images/2023/Tamsui-map-title.png",
+            "gravity": "top"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "button",
+                    "action": {
+                      "type": "message",
+                      "label": "路線地圖",
+                      "text": "淡水河河濱自行車道"
+                    },
+                    "color": "#5f473a"
+                  }
+                ]
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "button",
+                    "action": {
+                      "type": "uri",
+                      "label": "介紹",
+                      "uri": "https://www.travel.taipei/zh-tw/must-visit/riverside-bikeway#tamsui"
+                    },
+                    "color": "#5f473a"
+                  }
+                ]
+              }
+            ],
+            "backgroundColor": "#f4e8d5"
+          }
+        ],
+        "paddingAll": "none"
+      }
+    },
+    {
+      "type": "bubble",
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "image",
+            "url": "https://www.travel.taipei/content/images/2023/jingmei-map-title.png",
+            "gravity": "top"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "button",
+                    "action": {
+                      "type": "message",
+                      "label": "路線地圖",
+                      "text": "景美溪河濱自行車道"
+                    },
+                    "color": "#5f473a"
+                  }
+                ]
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "button",
+                    "action": {
+                      "type": "uri",
+                      "label": "介紹",
+                      "uri": "https://www.travel.taipei/zh-tw/must-visit/riverside-bikeway#jingmei"
+                    },
+                    "color": "#5f473a"
+                  }
+                ]
+              }
+            ],
+            "backgroundColor": "#f4e8d5"
+          }
+        ],
+        "paddingAll": "none"
+      }
+    },
+    {
+      "type": "bubble",
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "image",
+            "url": "https://www.travel.taipei/content/images/2023/Ximdiam-map-title.png",
+            "gravity": "top"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "button",
+                    "action": {
+                      "type": "message",
+                      "label": "路線地圖",
+                      "text": "新店溪河濱自行車道"
+                    },
+                    "color": "#5f473a"
+                  }
+                ]
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "button",
+                    "action": {
+                      "type": "uri",
+                      "label": "介紹",
+                      "uri": "https://www.travel.taipei/zh-tw/must-visit/riverside-bikeway#ximdiam"
+                    },
+                    "color": "#5f473a"
+                  }
+                ]
+              }
+            ],
+            "backgroundColor": "#f4e8d5"
+          }
+        ],
+        "paddingAll": "none"
+      }
+    },
+    {
+      "type": "bubble",
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "image",
+            "url": "https://www.travel.taipei/content/images/2023/Shuangxi-map-title.png",
+            "gravity": "top"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "button",
+                    "action": {
+                      "type": "message",
+                      "label": "路線地圖",
+                      "text": "雙溪河濱自行車道"
+                    },
+                    "color": "#5f473a"
+                  }
+                ]
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "button",
+                    "action": {
+                      "type": "uri",
+                      "label": "介紹",
+                      "uri": "https://www.travel.taipei/zh-tw/must-visit/riverside-bikeway#shuangxi"
+                    },
+                    "color": "#5f473a"
+                  }
+                ]
+              }
+            ],
+            "backgroundColor": "#f4e8d5"
+          }
+        ],
+        "paddingAll": "none"
+      }
+    }
+  ]
+}
+            } 
+    )
+    line_bot_api.reply_message(event.reply_token, flex_message)
+
+#基隆河河濱自行車道
 def keelungbike(event):
   image_message = ImageSendMessage(
   original_content_url='https://www.travel.taipei/content/images/2023/map/Keelung.jpg',
   preview_image_url='https://www.travel.taipei/content/images/2023/map/Keelung.jpg'
+  )
+  line_bot_api.reply_message(event.reply_token, image_message)
+
+#淡水河河濱自行車道
+def tamsui(event):
+  image_message = ImageSendMessage(
+  original_content_url='https://www.travel.taipei/content/images/2023/map/Tamsui.jpg',
+  preview_image_url='https://www.travel.taipei/content/images/2023/map/Tamsui.jpg'
+  )
+  line_bot_api.reply_message(event.reply_token, image_message)
+
+#景美溪河濱自行車道
+def jingmei(event):
+  image_message = ImageSendMessage(
+  original_content_url='https://www.travel.taipei/content/images/2023/map/jingmei.jpg',
+  preview_image_url='https://www.travel.taipei/content/images/2023/map/jingmei.jpg'
+  )
+  line_bot_api.reply_message(event.reply_token, image_message)
+
+#新店溪河濱自行車道
+def ximdiam(event):
+  image_message = ImageSendMessage(
+  original_content_url='https://www.travel.taipei/content/images/2023/map/Ximdiam.jpg',
+  preview_image_url='https://www.travel.taipei/content/images/2023/map/Ximdiam.jpg'
+  )
+  line_bot_api.reply_message(event.reply_token, image_message)
+
+#雙溪河濱自行車道
+def shuangxi(event):
+  image_message = ImageSendMessage(
+  original_content_url='https://www.travel.taipei/content/images/2023/map/Shuangxi.jpg',
+  preview_image_url='https://www.travel.taipei/content/images/2023/map/Shuangxi.jpg'
   )
   line_bot_api.reply_message(event.reply_token, image_message)
 

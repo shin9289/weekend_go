@@ -100,5 +100,17 @@ def handle_text_message(event):
         func.medium_trail(event)
     if received_text=="高難度健行步道":
         func.hard_trail(event)
-    if received_text=="基隆河自行車道":
+
+    #自行車路線圖
+    if received_text=="自行車路線圖":
+        func.bike(event)  
+    if received_text=="基隆河河濱自行車道":
         func.keelungbike(event)
+    if received_text=="淡水河河濱自行車道":
+        func.tamsui(event)
+    if received_text=="景美溪河濱自行車道":
+        func.jingmei(event)
+    if received_text=="新店溪河濱自行車道":
+        func.ximdiam(event)
+    if received_text=="雙溪河濱自行車道":
+        func.shuangxi(event)
