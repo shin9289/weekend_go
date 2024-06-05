@@ -37,7 +37,6 @@ def huashan(event):
     except:
         line_bot_api.reply_message(event.reply_token,TextSendMessage(text="⚠️emm...系統出了點小問題，請至華山1914文創產業園區官網自行查詢：https://www.huashan1914.com"))
 
-
 #松山文創園區
 def songshan(event):
     url = "https://www.songshanculturalpark.org/exhibition"
@@ -61,7 +60,6 @@ def songshan(event):
     except:
         line_bot_api.reply_message(event.reply_token,TextSendMessage(text="⚠️emm...系統出了點小問題，請至松山文創園區官網自行查詢：https://www.songshanculturalpark.org"))
     
-
 #世貿／南港展覽館
 def twtc(event):
     url = "https://www.twtc.com.tw/exhibition.aspx?p=home"
@@ -86,6 +84,75 @@ def twtc(event):
             
     except:
         line_bot_api.reply_message(event.reply_token,TextSendMessage(text="⚠️emm...系統出了點小問題，請至台北世貿中心官網自行查詢：https://www.twtc.com.tw/exhibition.aspx?p=home"))
+
+#舞蹈表演
+def music(event):
+    url = "https://event.moc.gov.tw/sp.asp?xdurl=ccEvent2016%2FeventSearchList.asp&ctNode=676&mp=1&action=query&cstkn=A686F210-8B61-8F5B-2A07-C01C10DC8713&stitle=&ev_place=&ev_start_m=&ev_start=&ev_end_m=&ev_end=&ev_city=A63&ev_format=B0&ev_char1=B3&Search=%E6%9F%A5%E8%A9%A2"
+    res = requests.get(url)
+    soup = BeautifulSoup(res.text, 'html.parser')
+    rows = soup.select('.list tr')[1:]
+
+    activity_info = []
+    activity_info.append("📢舞蹈表演")
+    for row in rows:
+        date = row.find_all('td')[1].text.strip()
+        title = row.find_all('td')[2].find('a').text.strip()
+        link = row.find_all('td')[2].find('a')['href']
+        activity_info.append(f"\n活動名稱：{date}\n活動日期：{title}\n活動連結：ttps://event.moc.gov.tw/{link}")
+    activity_info.append("⚠️活動資訊皆由文化部全國藝文活動資訊系統網提供⚠️")
+    
+    news_text = "\n".join(activity_info)
+    try:
+        line_bot_api.reply_message(event.reply_token,TextSendMessage(text=news_text))
+            
+    except:
+        line_bot_api.reply_message(event.reply_token,TextSendMessage(text="⚠️emm...系統出了點小問題，請至文化部全國藝文活動資訊系統網自行查詢：https://event.moc.gov.tw/mp.asp?mp=1"))
+
+#戲劇演出
+def music(event):
+    url = "https://event.moc.gov.tw/sp.asp?xdurl=ccEvent2016%2FeventSearchList.asp&ctNode=676&mp=1&action=query&cstkn=E7862923-BC51-CF4B-5AF8-F10C48EFC813&stitle=&ev_place=&ev_start_m=&ev_start=&ev_end_m=&ev_end=&ev_city=A63&ev_format=B0&ev_char1=B2&Search=%E6%9F%A5%E8%A9%A2"
+    res = requests.get(url)
+    soup = BeautifulSoup(res.text, 'html.parser')
+    rows = soup.select('.list tr')[1:]
+
+    activity_info = []
+    activity_info.append("📢戲劇演出")
+    for row in rows:
+        date = row.find_all('td')[1].text.strip()
+        title = row.find_all('td')[2].find('a').text.strip()
+        link = row.find_all('td')[2].find('a')['href']
+        activity_info.append(f"\n活動名稱：{date}\n活動日期：{title}\n活動連結：ttps://event.moc.gov.tw/{link}")
+    activity_info.append("⚠️活動資訊皆由文化部全國藝文活動資訊系統網提供⚠️")
+    
+    news_text = "\n".join(activity_info)
+    try:
+        line_bot_api.reply_message(event.reply_token,TextSendMessage(text=news_text))
+            
+    except:
+        line_bot_api.reply_message(event.reply_token,TextSendMessage(text="⚠️emm...系統出了點小問題，請至文化部全國藝文活動資訊系統網自行查詢：https://event.moc.gov.tw/mp.asp?mp=1"))
+
+#音樂活動
+def music(event):
+    url = "https://event.moc.gov.tw/sp.asp?xdurl=ccEvent2016%2FeventSearchList.asp&ctNode=676&mp=1&action=query&cstkn=848FA877-695B-6C55-07F1-AE06C633B87A&stitle=&ev_place=&ev_start_m=&ev_start=&ev_end_m=&ev_end=&ev_city=A63&ev_format=B0&ev_char1=B0&ev_char1=B1&Search=%E6%9F%A5%E8%A9%A2"
+    res = requests.get(url)
+    soup = BeautifulSoup(res.text, 'html.parser')
+    rows = soup.select('.list tr')[1:]
+
+    activity_info = []
+    activity_info.append("📢音樂活動")
+    for row in rows:
+        date = row.find_all('td')[1].text.strip()
+        title = row.find_all('td')[2].find('a').text.strip()
+        link = row.find_all('td')[2].find('a')['href']
+        activity_info.append(f"\n活動名稱：{date}\n活動日期：{title}\n活動連結：ttps://event.moc.gov.tw/{link}")
+    activity_info.append("⚠️活動資訊皆由文化部全國藝文活動資訊系統網提供⚠️")
+    
+    news_text = "\n".join(activity_info)
+    try:
+        line_bot_api.reply_message(event.reply_token,TextSendMessage(text=news_text))
+            
+    except:
+        line_bot_api.reply_message(event.reply_token,TextSendMessage(text="⚠️emm...系統出了點小問題，請至文化部全國藝文活動資訊系統網自行查詢：https://event.moc.gov.tw/mp.asp?mp=1"))
 
 #按鈕樣板
 def send_template_message(event, title, text, actions):
