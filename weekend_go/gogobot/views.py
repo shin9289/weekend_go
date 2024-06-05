@@ -67,7 +67,13 @@ def handle_text_message(event):
             text="我們將會整理該月市集資訊給您呦💗",
             actions=actions
         )
-    
+    if received_text=="六月市集資訊":
+        func.junemarket(event)
+    if received_text=="七月市集資訊":
+        func.julymarket(event)
+    if received_text=="八月市集資訊":
+        func.augmarket(event)
+
     #台北秘境
     if received_text=="台北秘境":
         func.taipei_secret_place(event)
