@@ -120,3 +120,7 @@ def handle_text_message(event):
         func.ximdiam(event)
     if received_text=="雙溪河濱自行車道":
         func.shuangxi(event)
+
+    #捷運咖啡廳
+    if received_text=="文湖線":
+        func.br(event)
