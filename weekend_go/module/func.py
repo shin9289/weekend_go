@@ -1756,7 +1756,6 @@ def bike(event):
     flex_message = FlexSendMessage(
             alt_text='自行車道',
             contents={
-                {
   "type": "carousel",
   "contents": [
     {
@@ -2020,7 +2019,6 @@ def bike(event):
       }
     }
   ]
-}
             } 
     )
     line_bot_api.reply_message(event.reply_token, flex_message)
