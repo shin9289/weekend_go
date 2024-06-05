@@ -124,3 +124,11 @@ def handle_text_message(event):
     #捷運咖啡廳
     if received_text=="文湖線":
         func.br(event)
+    if received_text=="板南線":
+        func.bl(event)
+    if received_text=="中和新蘆線":
+        func.o(event)
+    if received_text=="松山新店線":
+        func.g(event)
+    if received_text=="淡水信義線":
+        func.r(event)
