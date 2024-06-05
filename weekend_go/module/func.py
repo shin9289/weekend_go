@@ -86,7 +86,7 @@ def twtc(event):
         line_bot_api.reply_message(event.reply_token,TextSendMessage(text="⚠️emm...系統出了點小問題，請至台北世貿中心官網自行查詢：https://www.twtc.com.tw/exhibition.aspx?p=home"))
 
 #舞蹈表演
-def music(event):
+def dance(event):
     url = "https://event.moc.gov.tw/sp.asp?xdurl=ccEvent2016%2FeventSearchList.asp&ctNode=676&mp=1&action=query&cstkn=A686F210-8B61-8F5B-2A07-C01C10DC8713&stitle=&ev_place=&ev_start_m=&ev_start=&ev_end_m=&ev_end=&ev_city=A63&ev_format=B0&ev_char1=B3&Search=%E6%9F%A5%E8%A9%A2"
     res = requests.get(url)
     soup = BeautifulSoup(res.text, 'html.parser')
@@ -109,7 +109,7 @@ def music(event):
         line_bot_api.reply_message(event.reply_token,TextSendMessage(text="⚠️emm...系統出了點小問題，請至文化部全國藝文活動資訊系統網自行查詢：https://event.moc.gov.tw/mp.asp?mp=1"))
 
 #戲劇演出
-def music(event):
+def drama(event):
     url = "https://event.moc.gov.tw/sp.asp?xdurl=ccEvent2016%2FeventSearchList.asp&ctNode=676&mp=1&action=query&cstkn=E7862923-BC51-CF4B-5AF8-F10C48EFC813&stitle=&ev_place=&ev_start_m=&ev_start=&ev_end_m=&ev_end=&ev_city=A63&ev_format=B0&ev_char1=B2&Search=%E6%9F%A5%E8%A9%A2"
     res = requests.get(url)
     soup = BeautifulSoup(res.text, 'html.parser')

@@ -45,6 +45,13 @@ def handle_text_message(event):
         func.songshan(event) 
     if received_text=="世貿／南港展覽館展覽資訊":
         func.twtc(event)
+    #藝術活動
+    if received_text=="舞蹈表演":
+        func.dance(event) 
+    if received_text=="戲劇演出":
+        func.drama(event) 
+    if received_text=="音樂活動":
+        func.music(event)
     #市集
     if received_text=="市集":
         actions = [
