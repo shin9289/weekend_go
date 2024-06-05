@@ -4470,3 +4470,1115 @@ def o(event):
 }
     )
     line_bot_api.reply_message(event.reply_token, flex_message)
+
+#松山新店線
+def g(event):
+    flex_message = FlexSendMessage(
+            alt_text='松山新店線咖啡廳',
+            contents={
+  "type": "bubble",
+  "size": "mega",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "松山新店線咖啡廳",
+        "color": "#008659",
+        "size": "xl",
+        "weight": "bold"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "filler"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [],
+                "height": "12px",
+                "width": "12px",
+                "borderColor": "#008659",
+                "borderWidth": "6px",
+                "cornerRadius": "30px"
+              },
+              {
+                "type": "filler"
+              }
+            ],
+            "flex": 0
+          },
+          {
+            "type": "text",
+            "text": "信義安和",
+            "gravity": "center",
+            "flex": 4,
+            "size": "md"
+          }
+        ],
+        "spacing": "lg",
+        "cornerRadius": "30px",
+        "margin": "xl"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                  {
+                    "type": "filler"
+                  },
+                  {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [],
+                    "width": "2px",
+                    "backgroundColor": "#B7B7B7"
+                  },
+                  {
+                    "type": "filler"
+                  }
+                ],
+                "flex": 1
+              }
+            ],
+            "width": "12px"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "All Day Roasting Company 師大店",
+                "color": "#8c8c8c",
+                "size": "sm"
+              },
+              {
+                "type": "text",
+                "text": "達文西咖啡 - 台大旗艦店",
+                "color": "#8c8c8c",
+                "size": "sm"
+              }
+            ]
+          }
+        ],
+        "spacing": "lg",
+        "height": "44px"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "filler"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [],
+                "cornerRadius": "30px",
+                "width": "12px",
+                "height": "12px",
+                "borderWidth": "6px",
+                "borderColor": "#008659"
+              },
+              {
+                "type": "filler"
+              }
+            ],
+            "flex": 0
+          },
+          {
+            "type": "text",
+            "text": "北門",
+            "gravity": "center",
+            "flex": 4,
+            "size": "md"
+          }
+        ],
+        "spacing": "lg",
+        "cornerRadius": "30px"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                  {
+                    "type": "filler"
+                  },
+                  {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [],
+                    "width": "2px",
+                    "backgroundColor": "#B7B7B7"
+                  },
+                  {
+                    "type": "filler"
+                  }
+                ],
+                "flex": 1
+              }
+            ],
+            "width": "12px"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "哩家咖啡 LI-HOUSE Cafe",
+                "color": "#8c8c8c",
+                "size": "sm"
+              }
+            ]
+          }
+        ],
+        "spacing": "lg",
+        "height": "24px"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "filler"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [],
+                "cornerRadius": "30px",
+                "width": "12px",
+                "height": "12px",
+                "borderWidth": "6px",
+                "borderColor": "#008659"
+              },
+              {
+                "type": "filler"
+              }
+            ],
+            "flex": 0
+          },
+          {
+            "type": "text",
+            "text": "西門",
+            "gravity": "center",
+            "flex": 4,
+            "size": "md"
+          }
+        ],
+        "spacing": "lg",
+        "cornerRadius": "30px"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                  {
+                    "type": "filler"
+                  },
+                  {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [],
+                    "width": "2px",
+                    "backgroundColor": "#B7B7B7"
+                  },
+                  {
+                    "type": "filler"
+                  }
+                ],
+                "flex": 1
+              }
+            ],
+            "width": "12px"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "Coppii Lumii living coffee 冉冉生活",
+                "color": "#8c8c8c",
+                "size": "sm"
+              },
+              {
+                "type": "text",
+                "text": "4F劇場咖啡",
+                "color": "#8c8c8c",
+                "size": "sm"
+              }
+            ]
+          }
+        ],
+        "spacing": "lg",
+        "height": "44px"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "filler"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [],
+                "cornerRadius": "30px",
+                "width": "12px",
+                "height": "12px",
+                "borderWidth": "6px",
+                "borderColor": "#008659"
+              },
+              {
+                "type": "filler"
+              }
+            ],
+            "flex": 0
+          },
+          {
+            "type": "text",
+            "text": "南京復興",
+            "gravity": "center",
+            "flex": 4,
+            "size": "md"
+          }
+        ],
+        "spacing": "lg",
+        "cornerRadius": "30px"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                  {
+                    "type": "filler"
+                  },
+                  {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [],
+                    "width": "2px",
+                    "backgroundColor": "#B7B7B7"
+                  },
+                  {
+                    "type": "filler"
+                  }
+                ],
+                "flex": 1
+              }
+            ],
+            "width": "12px"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "color": "#8c8c8c",
+                "size": "sm",
+                "text": "Milk Bar by BKA"
+              },
+              {
+                "type": "text",
+                "text": "Le Park Cafe公園咖啡館",
+                "color": "#8c8c8c",
+                "size": "sm"
+              }
+            ]
+          }
+        ],
+        "spacing": "lg",
+        "height": "44px"
+      }
+    ]
+  }
+}
+    )
+    line_bot_api.reply_message(event.reply_token, flex_message)
+
+#淡水信義線
+def r(event):
+    flex_message = FlexSendMessage(
+            alt_text='淡水信義線咖啡廳',
+            contents={
+  "type": "bubble",
+  "size": "mega",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "淡水信義線咖啡廳",
+        "color": "#e3002c",
+        "size": "xl",
+        "weight": "bold"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "filler"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [],
+                "height": "12px",
+                "width": "12px",
+                "borderColor": "#e3002c",
+                "borderWidth": "6px",
+                "cornerRadius": "30px"
+              },
+              {
+                "type": "filler"
+              }
+            ],
+            "flex": 0
+          },
+          {
+            "type": "text",
+            "text": "信義安和",
+            "gravity": "center",
+            "flex": 4,
+            "size": "md"
+          }
+        ],
+        "spacing": "lg",
+        "cornerRadius": "30px",
+        "margin": "xl"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                  {
+                    "type": "filler"
+                  },
+                  {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [],
+                    "width": "2px",
+                    "backgroundColor": "#B7B7B7"
+                  },
+                  {
+                    "type": "filler"
+                  }
+                ],
+                "flex": 1
+              }
+            ],
+            "width": "12px"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "Congrats Café",
+                "color": "#8c8c8c",
+                "size": "sm"
+              },
+              {
+                "type": "text",
+                "text": "2730 café 貳柒參零咖啡",
+                "color": "#8c8c8c",
+                "size": "sm"
+              }
+            ]
+          }
+        ],
+        "spacing": "lg",
+        "height": "44px"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "filler"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [],
+                "cornerRadius": "30px",
+                "width": "12px",
+                "height": "12px",
+                "borderWidth": "6px",
+                "borderColor": "#e3002c"
+              },
+              {
+                "type": "filler"
+              }
+            ],
+            "flex": 0
+          },
+          {
+            "type": "text",
+            "text": "大安",
+            "gravity": "center",
+            "flex": 4,
+            "size": "md"
+          }
+        ],
+        "spacing": "lg",
+        "cornerRadius": "30px"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                  {
+                    "type": "filler"
+                  },
+                  {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [],
+                    "width": "2px",
+                    "backgroundColor": "#B7B7B7"
+                  },
+                  {
+                    "type": "filler"
+                  }
+                ],
+                "flex": 1
+              }
+            ],
+            "width": "12px"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "2J CAFE",
+                "color": "#8c8c8c",
+                "size": "sm"
+              }
+            ]
+          }
+        ],
+        "spacing": "lg",
+        "height": "24px"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "filler"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [],
+                "cornerRadius": "30px",
+                "width": "12px",
+                "height": "12px",
+                "borderWidth": "6px",
+                "borderColor": "#e3002c"
+              },
+              {
+                "type": "filler"
+              }
+            ],
+            "flex": 0
+          },
+          {
+            "type": "text",
+            "text": "東門",
+            "gravity": "center",
+            "flex": 4,
+            "size": "md"
+          }
+        ],
+        "spacing": "lg",
+        "cornerRadius": "30px"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                  {
+                    "type": "filler"
+                  },
+                  {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [],
+                    "width": "2px",
+                    "backgroundColor": "#B7B7B7"
+                  },
+                  {
+                    "type": "filler"
+                  }
+                ],
+                "flex": 1
+              }
+            ],
+            "width": "12px"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "玖仰茶食文化(永康)",
+                "color": "#8c8c8c",
+                "size": "sm"
+              },
+              {
+                "type": "text",
+                "text": "木色藝文咖啡Mu’s Cafe",
+                "color": "#8c8c8c",
+                "size": "sm"
+              }
+            ]
+          }
+        ],
+        "spacing": "lg",
+        "height": "44px"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "filler"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [],
+                "cornerRadius": "30px",
+                "width": "12px",
+                "height": "12px",
+                "borderWidth": "6px",
+                "borderColor": "#e3002c"
+              },
+              {
+                "type": "filler"
+              }
+            ],
+            "flex": 0
+          },
+          {
+            "type": "text",
+            "text": "中山",
+            "gravity": "center",
+            "flex": 4,
+            "size": "md"
+          }
+        ],
+        "spacing": "lg",
+        "cornerRadius": "30px"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                  {
+                    "type": "filler"
+                  },
+                  {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [],
+                    "width": "2px",
+                    "backgroundColor": "#B7B7B7"
+                  },
+                  {
+                    "type": "filler"
+                  }
+                ],
+                "flex": 1
+              }
+            ],
+            "width": "12px"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "漫拾",
+                "color": "#8c8c8c",
+                "size": "sm"
+              },
+              {
+                "type": "text",
+                "text": "and.room",
+                "color": "#8c8c8c",
+                "size": "sm"
+              }
+            ]
+          }
+        ],
+        "spacing": "lg",
+        "height": "44px"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "filler"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [],
+                "cornerRadius": "30px",
+                "width": "12px",
+                "height": "12px",
+                "borderWidth": "6px",
+                "borderColor": "#e3002c"
+              },
+              {
+                "type": "filler"
+              }
+            ],
+            "flex": 0
+          },
+          {
+            "type": "text",
+            "text": "雙連",
+            "gravity": "center",
+            "flex": 4,
+            "size": "md"
+          }
+        ],
+        "spacing": "lg",
+        "cornerRadius": "30px"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                  {
+                    "type": "filler"
+                  },
+                  {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [],
+                    "width": "2px",
+                    "backgroundColor": "#B7B7B7"
+                  },
+                  {
+                    "type": "filler"
+                  }
+                ],
+                "flex": 1
+              }
+            ],
+            "width": "12px"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "好啊咖啡",
+                "color": "#8c8c8c",
+                "size": "sm"
+              },
+              {
+                "type": "text",
+                "text": "北風社",
+                "color": "#8c8c8c",
+                "size": "sm"
+              }
+            ]
+          }
+        ],
+        "spacing": "lg",
+        "height": "44px"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "filler"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [],
+                "cornerRadius": "30px",
+                "width": "12px",
+                "height": "12px",
+                "borderWidth": "6px",
+                "borderColor": "#e3002c"
+              },
+              {
+                "type": "filler"
+              }
+            ],
+            "flex": 0
+          },
+          {
+            "type": "text",
+            "text": "圓山",
+            "gravity": "center",
+            "flex": 4,
+            "size": "md"
+          }
+        ],
+        "spacing": "lg",
+        "cornerRadius": "30px"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                  {
+                    "type": "filler"
+                  },
+                  {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [],
+                    "width": "2px",
+                    "backgroundColor": "#B7B7B7"
+                  },
+                  {
+                    "type": "filler"
+                  }
+                ],
+                "flex": 1
+              }
+            ],
+            "width": "12px"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "Vis cafe 圓山店",
+                "color": "#8c8c8c",
+                "size": "sm"
+              }
+            ]
+          }
+        ],
+        "spacing": "lg",
+        "height": "24px"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "filler"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [],
+                "cornerRadius": "30px",
+                "width": "12px",
+                "height": "12px",
+                "borderWidth": "6px",
+                "borderColor": "#e3002c"
+              },
+              {
+                "type": "filler"
+              }
+            ],
+            "flex": 0
+          },
+          {
+            "type": "text",
+            "text": "劍潭",
+            "gravity": "center",
+            "flex": 4,
+            "size": "md"
+          }
+        ],
+        "spacing": "lg",
+        "cornerRadius": "30px"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                  {
+                    "type": "filler"
+                  },
+                  {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [],
+                    "width": "2px",
+                    "backgroundColor": "#B7B7B7"
+                  },
+                  {
+                    "type": "filler"
+                  }
+                ],
+                "flex": 1
+              }
+            ],
+            "width": "12px"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "HI MATE !",
+                "color": "#8c8c8c",
+                "size": "sm"
+              }
+            ]
+          }
+        ],
+        "spacing": "lg",
+        "height": "24px"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "filler"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [],
+                "cornerRadius": "30px",
+                "width": "12px",
+                "height": "12px",
+                "borderWidth": "6px",
+                "borderColor": "#e3002c"
+              },
+              {
+                "type": "filler"
+              }
+            ],
+            "flex": 0
+          },
+          {
+            "type": "text",
+            "text": "士林",
+            "gravity": "center",
+            "flex": 4,
+            "size": "md"
+          }
+        ],
+        "spacing": "lg",
+        "cornerRadius": "30px"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                  {
+                    "type": "filler"
+                  },
+                  {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [],
+                    "width": "2px",
+                    "backgroundColor": "#B7B7B7"
+                  },
+                  {
+                    "type": "filler"
+                  }
+                ],
+                "flex": 1
+              }
+            ],
+            "width": "12px"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "綠河小西",
+                "color": "#8c8c8c",
+                "size": "sm"
+              }
+            ]
+          }
+        ],
+        "spacing": "lg",
+        "height": "24px"
+      }
+    ]
+  }
+}
+    )
+    line_bot_api.reply_message(event.reply_token, flex_message)
